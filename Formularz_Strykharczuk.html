@@ -1,12 +1,76 @@
-	<!DOCTYPE html>
- <html lang="pl-PL">
+<!DOCTYPE html>
+        <html lang="pl-PL">
     <html>
-      <head>
-        <meta charset="utf-8">
-           <title>Formularz Strykharczuk</title>
-      </head>
-<body>
-Tutaj będzie formularz <br> 
-<A href="index.html"> wróć </A>
-</body>
-</html>
+        <head>
+            <meta charset="utf-8">
+            <title> Formularz Strykharczuk</title>
+        </head>
+
+    <body bgcolor="#2E8B57">
+    <center><h1> Formularz o przyjęcie do pracy medycznej  </h1></center>
+
+    <form enctype="text/plain"  action="mailto:mkryniew@ids.gda.pl" subject="Styrkharczuk"  method="Post">
+    <table>
+<TR height="100">
+    <TD><b>Imię</b>&nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp <input name="imie" size="20"><br><br>
+        <b>Nazwisko</b>    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="nazwisko" size="20"><br><br>
+		<b>Numer telefonu</b> &nbsp &nbsp &nbsp  &nbsp <input name="nrtel" value="+48" size="20"><br><br>
+    </TD>
+    
+    <TD >
+         <b>Czas</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <input name="time" size="20"><br><br>
+		 <b>Data</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="date" size="20"><br><br>
+    </TD>
+
+
+</TR>
+
+<TR height="100">
+    <TD><nobr><b>Ile masz lat?</b></nobr><br><br>
+
+           <input type="radio" name="odp" value="18-24">18-24<br><br>
+
+            <input type="radio" name="odp" value="24-35">24-35<br><br>
+
+           <input type="radio" name="odp" value=">35">>35<br> <br> 
+	</TD>
+	<TD width="500">Ile chcesz zarabiać?
+<br><br>
+<input type="radio" name="odp" value="4.000-7.000zł"> 4.000-7.000zł
+<br><br>
+<input type="radio" name="odp" value="7.000-12.000zł"> 7.000-12.000zł
+<br><br>
+<input type="radio" name="odp" value="12.000+zł"> 12.000+zł
+<br><br><br>
+<br><br>
+	</TD>
+</TR>
+
+<TR>
+    <TD width="500" > 
+<b>Jakim chcesz pracować lekarzem?</b><br>
+  <select>
+ <option value="Kosmetolog">Kosmetolog</option>
+ <option value="Anestezjolog">Anestezjolog</option>
+ <option value="Chirurg">Chirurg</option>
+ <option value="Dentysta">Dentysta</option>
+ <option value="Terapeuta">Terapeuta</option>
+ <option value="Pediatra">Pediatra</option>
+ </select> 
+ </TD> 
+	<TD width="500"> 
+ <img src="luxmed.jpg" align="center"  width="250" height="300"<br>
+ </TD>
+ 
+</TR>
+
+<TR>
+        <td><input type="reset" value="Resetuj" style="height: 30px; width:150px"></td> 
+        <td><input type="submit" value="Wyślij" style="height: 30px; width:150px"></td>
+</TR>
+
+    </table>
+                </form>
+            <A HREF="index.html"> Wróć </A> 
+           </body>
+    </html>
